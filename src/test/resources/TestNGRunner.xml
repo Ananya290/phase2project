@@ -1,0 +1,18 @@
+<suite name = "outoftheapptesting" verbose = '1'>
+
+
+<test name = "testcycle1">
+<classes>
+
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+
+
+</classes>
+
+
+</test>
+
+
+</suite>

@@ -1,0 +1,60 @@
+<suite name = "outoftheapptesting" verbose = '1'>
+
+
+<test name = "testcycle1">
+<classes>
+
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+
+
+</classes>
+
+
+</test>
+<test name = "testcycle2">
+<classes>
+
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+
+
+</classes>
+
+
+</test>
+<test name = "testcycle3">
+<classes>
+
+<class name = "com.app.TestNG1.TestAnnotation">
+<method>
+<include name = "login">
+</include>
+</method>
+</class>
+
+<class name = "com.app.TestNG1.TestAnnotation">
+<method>
+<include name = "GetTite">
+</include>
+</method></class>
+
+<class name = "com.app.TestNG1.TestAnnotation">
+<method>
+<exclude name = "logout">
+</exclude>
+<exclude name = "login">
+</exclude>
+</method>
+</class>
+
+
+</classes>
+
+
+</test>
+
+
+</suite>

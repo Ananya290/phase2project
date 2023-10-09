@@ -1,0 +1,23 @@
+
+
+<suite name="testsuite2" verbose="1">
+
+<test name="TestCycle1">
+<parameter name="username"  value="admin"/>
+<parameter name="password"  value="admin2123"/>
+<classes>
+<class name="parameterdemo.Parameterdemo">
+</class>
+</classes>
+</test>
+
+<test name="TestCycle2">
+<parameter name="username"  value="ananya"/>
+<parameter name="password"  value="ananya1234567"/>
+<classes>
+<class name="parameterdemo.Parameterdemo">
+</class>
+</classes>
+</test>
+
+</suite>

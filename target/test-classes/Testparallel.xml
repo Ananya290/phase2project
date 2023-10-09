@@ -1,0 +1,24 @@
+<suite name = "outoftheapptesting" verbose = '1' parallel = "method" thread-count ="2">
+
+
+<test name = "testcycle1">
+<classes>
+
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+
+
+</classes>
+
+
+</test>
+<test name = "testcycle2">
+<classes>
+
+<class name = "com.app.TestNG1.TestAnnotation"></class>
+
+
+</classes>
+
+
+</test>
+</suite>
